@@ -13,7 +13,11 @@ final theme = ThemeData(
 );
 
 void main() {
-  runApp(const ProviderScope(child: MyApp(),));
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
